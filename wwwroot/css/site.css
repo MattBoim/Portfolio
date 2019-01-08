@@ -8,7 +8,17 @@ p{
 }
 .head{
     /* background-color: rgb(185, 185, 185); */
-    margin-bottom: 100px;
+}
+
+.logo{
+    width: 100px;
+    margin: 40px;
+    /* position: absolute; */
+}
+
+.logoF{
+    width: 200px;
+    margin: 20px;
 }
 
 .head-item{
@@ -57,7 +67,7 @@ video{
     width: 100%;
     max-width: 500px;
     box-shadow: -2px 5px gray;
-
+    
 }
 
 .icon{
@@ -105,8 +115,14 @@ a{
     color: #84466a;
 }
 
+a:hover{
+    color: #7e5ac0;
+}
+
 .footer{
-    padding: 80px;
+    /* padding: 80px; */
+    padding: 10px;
+    padding-top: 200px;
     background: #3a2833; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #3a2833 0%, #573c4c 51%, #84466a 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
@@ -117,4 +133,5 @@ a{
 .footer p{
     color: white;
     font-size: 10px;
+    margin: 5px;
 }
