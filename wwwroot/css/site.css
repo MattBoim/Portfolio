@@ -1,0 +1,120 @@
+/*Write all of your CSS here*/
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    margin: 0;
+}
+.head{
+    /* background-color: rgb(185, 185, 185); */
+    margin-bottom: 100px;
+}
+
+.head-item{
+    margin: 5px;
+    color: #573c4c;
+}
+
+#head-but{
+    text-align: right;
+}
+
+h1, p{
+    color: #573c4c;
+}
+
+.greeting{
+    margin-top: 200px;
+    background: #3a2833; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #3a2833 0%, #573c4c 51%, #84466a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a2833', endColorstr='#84466a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 100px 10% 200px 10%;
+}
+
+.greeting h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.greeting p{
+    color: white;
+    /* margin: 0px 60px 0px 60px; */
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.hideme{
+    margin-top: 200px;
+}
+
+video{
+    border-radius: 50%;
+    margin: 5% 0px 5% 0px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: -2px 5px gray;
+
+}
+
+.icon{
+    color: black;
+}
+
+.icon:hover{
+    color: #d697bc;
+}
+
+#skills{
+    background: white;
+    /* margin-top: -100px; */
+    border-radius: 20px;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+.proj{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: -2px 5px;
+}
+
+.proj:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.proj:hover p{
+    color: white;
+}
+
+.education{
+    padding: 80px;
+}
+
+.projects{
+    margin-bottom: 80px;
+}
+
+a{
+    color: #84466a;
+}
+
+.footer{
+    padding: 80px;
+    background: #3a2833; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #3a2833 0%, #573c4c 51%, #84466a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a2833', endColorstr='#84466a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer p{
+    color: white;
+    font-size: 10px;
+}
