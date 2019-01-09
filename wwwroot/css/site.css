@@ -41,7 +41,7 @@ h1, p{
     background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a2833', endColorstr='#84466a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    padding: 100px 10% 200px 10%;
+    padding: 20px 10% 200px 10%;
 }
 
 .greeting h1{
@@ -57,13 +57,44 @@ h1, p{
     max-width: 300px;
 }
 
+#BackgroundBox{
+    margin-top: -200px;
+    height: 500px;
+    background: #a0738f; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #3a2833 0%, #573c4c 51%, #84466a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a2833', endColorstr='#84466a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#stacks{
+    margin-top: -200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+#stacks h2{
+    color: black;
+    padding: 15px;
+}
+
+.stack{
+    /* background-color: white; */
+    /* border-radius: 20px; */
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
 .hideme{
     margin-top: 200px;
 }
 
 video{
     border-radius: 50%;
-    margin: 5% 0px 5% 0px;
+    margin: 10% 0px 10% 0px;
     width: 100%;
     max-width: 500px;
     box-shadow: -2px 5px gray;
@@ -93,6 +124,7 @@ video{
     margin: 5px;
     padding: 20px;
     box-shadow: -2px 5px;
+    background-color: white;
 }
 
 .proj:hover{
@@ -104,11 +136,12 @@ video{
 }
 
 .education{
-    padding: 80px;
+    padding: 100px;
 }
 
 .projects{
     margin-bottom: 80px;
+    margin-top: 200px;
 }
 
 a{
@@ -134,4 +167,8 @@ a:hover{
     color: white;
     font-size: 10px;
     margin: 5px;
+}
+
+.contact{
+    margin-bottom: -25px;
 }

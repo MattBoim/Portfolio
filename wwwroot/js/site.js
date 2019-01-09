@@ -9,7 +9,7 @@ function scrollPlay(){
     window.requestAnimationFrame(scrollPlay);
 }
 $(document).ready(function() {
-    $(".greeting").animate({'margin-top':'10'},2000);
+    $(".greeting").animate({'margin-top':'0'},2000);
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
     
