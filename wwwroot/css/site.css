@@ -155,7 +155,7 @@ a:hover{
 .footer{
     /* padding: 80px; */
     padding: 10px;
-    padding-top: 200px;
+    padding-top: 100px;
     background: #3a2833; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #3a2833 0%, #573c4c 51%, #84466a 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #3a2833 0%,#573c4c 51%,#84466a 100%); /* Chrome10-25,Safari5.1-6 */
@@ -171,4 +171,12 @@ a:hover{
 
 .contact{
     margin-bottom: -25px;
+}
+
+#links{
+    margin: 10px;
+}
+
+#links .fab{
+    margin: 10px;
 }
